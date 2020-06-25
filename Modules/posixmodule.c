@@ -20,6 +20,10 @@
 #  pragma weak statvfs
 #  pragma weak fstatvfs
 
+ #include <sys/types.h>
+ #include <sys/socket.h>
+ #include <sys/uio.h>
+
 #endif /* __APPLE__ */
 
 #define PY_SSIZE_T_CLEAN
